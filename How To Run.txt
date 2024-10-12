@@ -1,7 +1,7 @@
-# Create a new environment
+
 Step 1 : open your anaconda prompt (for windows user search inside start menu )
                                    (for Ubuntu and Mac user you can open your terminal)
-
+            git clone https://github.com/THU-MIG/yolov10.git
 Step 2 : Create a new environment
             command : conda create -p venv python==3.10
 Step 3 : activate your environment
