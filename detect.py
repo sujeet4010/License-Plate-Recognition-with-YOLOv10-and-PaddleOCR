@@ -9,7 +9,7 @@ from utils import save_json
 
 cap = cv2.VideoCapture("notebooks\data\car.mp4")
 
-model = YOLO("yolov10/best.pt")
+model = YOLO("artifacts/best.pt")
 
 startTime=datetime.now()
 license_plates = set()
